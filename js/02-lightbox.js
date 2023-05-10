@@ -25,5 +25,5 @@ const  createGallery = (items) =>{
 const addGallery = createGallery(galleryItems);
 gallery.innerHTML = addGallery;
 
-let lightbox = new SimpleLightbox('.gallery a', {captionsData: 'alt', captionDelay: 100});
+let lightbox = new SimpleLightbox('.gallery a', {captionsData: 'alt', captionDelay: 250});
 console.log(lightbox);
