@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -11,6 +13,9 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  /* NO ME REGAÑES :p */
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
 input {
@@ -22,11 +27,34 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
-
+ /* Modoficacion personal de los estilos*/
 ul{
+  margin-top: 50px;
+  margin-left: 20px;
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  
+}
+li{
+   margin-bottom: 30px;
 }
 
 a {
+  color: #00b7ff;
   text-decoration: none;
+  background-color: rgb(92, 92, 92);
+  padding: 8px;
+  border: #000000 double 2px;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  border-radius: 15px;
+  box-shadow: -5px -10px 10px gray;;
+}
+
+a:hover{
+
+  color: rgb(92, 92, 92);
+  background-color: #00b7ff;
 }
